@@ -1,0 +1,74 @@
+@import url('https://fonts.cdnfonts.com/css/itc-benguiat');
+
+body{
+  margin:0;
+  min-height:100vh;
+  background:radial-gradient(circle,#200000,#000);
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  padding:30px 0;
+  font-family:'ITC Benguiat',serif;
+  color:white;
+}
+
+.container{
+  width:100%;
+  max-width:420px;
+  background:black;
+  padding:30px;
+  border:2px solid red;
+  box-shadow:0 0 40px red;
+}
+
+h1{text-align:center;color:red;}
+.tagline{text-align:center;opacity:.7;margin-bottom:15px;}
+
+input,select{
+  width:100%;
+  padding:12px;
+  margin:8px 0;
+  background:black;
+  color:white;
+  border:1px solid red;
+}
+
+.amount-box{
+  text-align:center;
+  color:red;
+  font-size:18px;
+  margin:15px 0;
+}
+
+.pay-btn{
+  width:100%;
+  padding:14px;
+  background:red;
+  border:none;
+  cursor:pointer;
+}
+
+.qr-box{
+  display:none;
+  text-align:center;
+  margin:15px 0;
+}
+
+.qr-box img{
+  width:200px;
+  border:2px solid red;
+}
+
+.register-btn{
+  width:100%;
+  padding:14px;
+  background:green;
+  border:none;
+  opacity:.5;
+  cursor:not-allowed;
+}
+
+.register-btn.active{
+  opacity:1;
+  cursor:pointer;
+}
